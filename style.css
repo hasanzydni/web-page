@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)80%, rgba(0,0,0,0.5)80%),url('Inde.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar
+{
+    width: 1600px;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: black;
+    font-size: 35px;
+    font-family: bold;
+    padding-left: 10px;
+    float:left;
+    padding-top: 17px;
+}
+.menu
+{
+    width: 900px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 27px;
+    font-size: 17px;
+
+}
+ul li a
+{
+    text-decoration: none;
+    color:floralwhite;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+
+}
+
+ul li a:hover
+{
+    color:aqua;
+}
+.Search
+{
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+.srch
+{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color:antiquewhite;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: antiquewhite;
+    border: 2px solid antiquewhite;
+    margin-top: 13px;
+    color: #ff7200;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+}
+.content
+{
+    width: 1000px;
+    height: 100px;
+    margin: 50;
+    color: antiquewhite;
+    position: relative;
+}
+
+.content.par
+{
+    padding-left: 100px;
+    padding-bottom: 800px;
+    font-family: 'Times New Roman';
+    letter-spacing: 5.5px;
+    line-height: 900px;
+}
+.content h1
+{
+ font-family: 'Times New Roman';
+ font-size: 70px;
+ padding-left: 10px;
+ margin-top: 10%;
+ letter-spacing: 3px;
+
+}
+
+
+.content .cn  
+{
+    width: 160px;
+    height: 50px;
+    background:burlywood;
+    border : none;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content.cn a
+{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+}
+
+.cn:hover
+{
+    background-color:aqua;
+}
+.content span
+{
+    color: aqua;
+    font-size: 50px;
+}
+
+ .form
+ {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 1070px;
+    border-radius: 10px;
+    padding: 55px;
+ }
+ .form h2
+ {
+    height: 30px;
+    width: 235px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+.form input
+{
+    width: 260px;
+    height: 45px;
+    background: transparent;
+    border-bottom: 1px solid  aqua; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:antiquewhite;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input :focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color:antiquewhite;
+    font-family: Arial;
+}
+.btnn
+{
+    width: 250px;
+    height: 50px;
+    background:  aqua;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.btnn:hover
+{
+    background: antiquewhite;
+}
+.btnn a 
+{
+    text-decoration: bold;
+    color:black;
+    font-weight: bold;
+
+}
+.form .link
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding-top: 45px;
+    text-align: center;
+
+ }
+ 
+.form .link a 
+{
+    text-decoration: none;
+    color :black;
+}
+.liw
+{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.icon a 
+{
+    text-decoration: none;
+    color:antiquewhite;
+
+}
+.icon ion-icon
+{
+    padding-left:1200px;
+    color:aqua;
+    font-size: 25px;
+    padding-left: 11px;
+    padding-top: 5px;
+    transition: 0.3s ease; 
+}
+.icon ion-icon:hover
+{
+    color:antiquewhite ;
+}
